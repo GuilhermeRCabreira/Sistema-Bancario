@@ -113,7 +113,8 @@ def criar_conta(contas, n_conta, agencia, usuarios):
             }
         contas.append(conta)
         print("Conta criada com sucesso!")
-       
+        print(f"Agência: {agencia}")
+        print(f"Número: {n_conta}")
         return n_conta
     
     print("Usuário não cadastrado!")
